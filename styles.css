@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Herr+Von+Muellerhoff&family=Playfair+Display&family=Poppins:wght@100;200;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    font-family: 'Popping', sans-serif;
+    height: 100%;
+}
+
+.content{
+    margin-top: 200px;
+}
+
+.cover-undangan{
+    position: relative; 
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('/image/pexels-sandro-crepulja-3352398.jpg') no-repeat fixed center;
+    background-size: cover;
+}
+
+.cover-undangan::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.70);
+
+}
+
+.content{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title_wedding p{
+    font-family: 'Playfair Display', sans-serif !important;
+    font-weight: lighter;
+    font-size: 100px;
+    color: white;
+}
+
+span{
+    color: #B39D5A;
+}
+
+.content p{
+    color: white;
+    margin: 10px;
+}
+
+.nama_tamu p{
+    font-size: xx-large;
+    font-weight: 700;
+}
+
+.wedding-of p{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 30px;
+}
+
+a{
+    margin-top: 20px;
+    padding: 12px 30px;
+    border: 1px solid #B39D5A;
+    border-radius: 8px;
+    border-color: #B39D5A;
+    background-color: #111111;
+    text-decoration: none;
+    color: white;
+}
+
+.elemen_1{
+    position: relative; 
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('/image/wedding\ \(2\).jpg') no-repeat fixed center;
+    background-size: cover;
+}
+
+.elemen_1::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.40);
+
+}
+
+.leoVania p{
+    font-family: 'Herr Von Muellerhoff', cursive;
+
+    font-size: 150px;
+}
+
+.leoVania span{
+    margin: 0 15px;
+}
+
+.main{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: cente;
+    flex-direction: column;
+    color: white;
+    margin-top: 300px;
+}
+
+.quote_1{
+    background-color: #2b2b28;
+}
+
+.quote_text p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    font-style: oblique;
+    text-align: center;
+    color: white;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.quote_author p{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 8px;
+}
+
+.the_beloved p{
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: 100;
+    text-align: center;
+    color: white;
+    justify-content: center;
+    padding-top: 150px;
+}
+
+.groom_bride{
+    font-family: 'Cormorant Garamond', sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    text-align: center;
+    color: #B39D5A;
+    justify-content: center;
+    padding-bottom: 30px;
+}
