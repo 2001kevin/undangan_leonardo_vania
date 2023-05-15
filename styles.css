@@ -168,3 +168,9 @@ a{
     justify-content: center;
     padding-bottom: 30px;
 }
+
+.wedding{
+    background-image: url('image/undangan_virtual_ss.png');
+  background-size: cover;
+  height: 1800vh;
+}
