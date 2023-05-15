@@ -24,7 +24,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url('/image/pexels-sandro-crepulja-3352398.jpg') no-repeat fixed center;
+    background: url('image/pexels-sandro-crepulja-3352398.jpg') no-repeat fixed center;
     background-size: cover;
 }
 
@@ -91,7 +91,7 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url('/image/wedding\ \(2\).jpg') no-repeat fixed center;
+    background: url('image/wedding\ \(2\).jpg') no-repeat fixed center;
     background-size: cover;
 }
 
