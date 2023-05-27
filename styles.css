@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Herr+Von+Muellerhoff&family=Playfair+Display&family=Poppins:wght@100;200;500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;500;600&family=Herr+Von+Muellerhoff&family=Playfair+Display&family=Poppins:wght@100;200;500&family=Tangerine&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -9,7 +8,7 @@
 
 
 body{
-    font-family: 'Popping', sans-serif;
+    font-family: 'Poppins', sans-serif;
     height: 100%;
 }
 
@@ -91,7 +90,7 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url('image/wedding\ \(2\).jpg') no-repeat fixed center;
+    background: url('image/wedding\ \(2\).jpg') ;
     background-size: cover;
 }
 
@@ -170,7 +169,91 @@ a{
 }
 
 .wedding{
-    background-image: url('image/undangan_virtual_ss.png');
+  background-image: url('image/undangan_virtual_ss.png');
   background-size: cover;
   height: 1800vh;
+}
+
+.container_groom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.groom_photo{
+    background: url('image/sampel\ 1.jpeg');
+    background-size: cover;
+    width:50%;
+    height: 100vh;
+}
+
+
+.social_media li {
+    display: inline;
+    text-decoration: none;
+}
+
+li span{
+    color:white;
+    margin-right:40px;
+}
+
+.text_groom{
+    margin-left: 20px;
+}
+
+.groom_photo .text2{
+    font-family: 'Tangerine', sans-serif;
+    color: white;
+    font-size: 120px;
+    padding-top: 62vh;
+    margin-left: 22px;
+}
+
+.text3{
+    font-family:'Cormorant Garamond', sans-serif ;
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    margin-left: 25px;
+}
+
+.text4{
+    color: white;
+    margin-left: 25px;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.groom_text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text1{
+    font-family: 'Cormorant Garamond', sans-serif;
+    font-weight: 600;
+    font-size: 100px;
+     writing-mode:tb-rl;
+    -webkit-transform:rotate(-90deg);
+    -moz-transform:rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    -ms-transform:rotate(-90deg);
+    transform: rotate(180deg);
+    white-space:nowrap;
+    margin-left: 43vh;
+}
+
+.text1_bride{
+    font-family: 'Cormorant Garamond', sans-serif;
+    font-weight: 600;
+    font-size: 100px;
+     writing-mode:tb-rl;
+    -webkit-transform:rotate(-90deg);
+    -moz-transform:rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    -ms-transform:rotate(-90deg);
+    transform: rotate(180deg);
+    white-space:nowrap;
+    margin-right: 40vh;
 }
