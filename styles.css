@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;500;600&family=Herr+Von+Muellerhoff&family=Playfair+Display&family=Poppins:wght@100;200;500&family=Tangerine&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;500;600&family=Great+Vibes&family=Herr+Von+Muellerhoff&family=Playfair+Display&family=Poppins:wght@100;200;500&family=Tangerine&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -72,7 +72,7 @@ span{
     font-size: 30px;
 }
 
-a{
+a .button{
     margin-top: 20px;
     padding: 12px 30px;
     border: 1px solid #B39D5A;
@@ -101,8 +101,7 @@ a{
     right: 0px;
     bottom: 0px;
     left: 0px;
-    background-color: rgba(0,0,0,0.40);
-
+    background-color: rgba(0, 0, 0, 0.403);
 }
 
 .leoVania p{
@@ -288,15 +287,18 @@ li span{
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .card_wedding{
-    background-color: aliceblue;
+    background-color: #2b2b28;
     height: 90%;
     width: 80%;
+    
 }
 
 .card_header{
+    position: relative;
     background: url('image/sampel\ 1.jpeg');
     background-size: cover;
     height: 42%;
@@ -306,26 +308,127 @@ li span{
     justify-content: end;
 }
 
-.header_text p{
+.card_header::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background: linear-gradient(#00000015, #0000009c);
+}
+
+.card_header p{
+    position: relative;
+}
+
+.header_text{
     font-size: 20px;
     color: white;
     text-align: center;
 }
 
 .wed_text p{
-    font-size: 20px;
+    font-family: 'Great Vibes', sans-serif ;
+    font-size: 60px;
     color: white;
     text-align: center;
 }
 
-.quote_header{ 
+.quote_header p{ 
     font-size: 20px;
+    font-weight: 200;
     color: white;
     text-align: center;
 }
 
-.author_header{
+.author_header p{
     font-size: 20px;
     color: white;
     text-align: center;
+    padding-bottom: 30px;
 }
+
+.card_body{
+    display: flex;
+    flex-basis: 2;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vh;
+    background-color: #2b2b28;
+    color: white;
+    font-family: 'Cormorant Garamond', sans-serif;
+    
+}
+
+.pemberkatan{
+    padding-left: 5vh;
+    padding-right: 5vh;
+}
+
+.text_pemberkatan h2{
+    font-size: 50px;
+    text-align: center;
+}
+
+.line{
+    width: 450px;
+    height: 1px;
+    background-color: white;
+    margin: 20px auto 20px;
+}
+
+.resepsi{
+    padding-right: 5vh;
+    padding-left: 5vh;
+}
+
+.text_resepsi h2{
+    font-size: 50px;
+    text-align: center;
+}
+
+.card_content{
+    font-family: 'Poppins', sans-serif;
+    color: #B39D5A;
+    text-align: start;
+}
+
+.tanggal p{
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+i{
+    margin-right: 8px;
+}
+
+.card_content{
+    text-align: start;
+}
+
+.jam p{
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+.button_group{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.button_group a{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: white;
+    padding: 8px 20px;
+    background-color: #B39D5A;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    border: 0;
+    border-radius: 10px;
+}
+
+
