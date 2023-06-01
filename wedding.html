@@ -8,9 +8,13 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- CDN Fontawesome -->
     <script
-      src="https://kit.fontawesome.com/32f82e1dca.js"
-      crossorigin="anonymous"
+        src="https://kit.fontawesome.com/32f82e1dca.js"
+        crossorigin="anonymous"
     ></script>
+    <!-- CDN Slick -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link rel="stylesheet" href="styles.css">
     <title>Document</title>
 </head>
@@ -183,12 +187,93 @@
             </div>
         </div>
 
-        <div class="wed_story">
+        <div class="wed-story">
+            <span>The Journey</span>
+            <span>Our Love Story</span>
+            <span>How it all started</span>
 
+            <div class="story-wrapper">
+                <div class="story-card">
+                    <div class="story-title">
+                        <span><i>First Meet</i></span>
+                    </div>
+                    <div class="story-image">
+                        <img src="./image/sampel 1.jpeg" alt="">
+                    </div>
+                    <div class="story-year">
+                        <span>20xx</span>
+                    </div>
+                </div>
+                <div class="story-card">
+                    <div class="story-title">
+                        <span><i>Start Dating</i></span>
+                    </div>
+                    <div class="story-image">
+                        <img src="./image/sampel 1.jpeg" alt="">
+                    </div>
+                    <div class="story-year">
+                        <span>20xx</span>
+                    </div>
+                </div>
+                <div class="story-card">
+                    <div class="story-title">
+                        <span><i>Engagement</i></span>
+                    </div>
+                    <div class="story-image">
+                        <img src="./image/sampel 1.jpeg" alt="">
+                    </div>
+                    <div class="story-year">
+                        <span>20xx</span>
+                    </div>
+                </div>
+                <div class="story-card">
+                    <div class="story-title">
+                        <span><i>Wedding</i></span>
+                    </div>
+                    <div class="story-image">
+                        <img src="./image/sampel 1.jpeg" alt="">
+                    </div>
+                    <div class="story-year">
+                        <span>20xx</span>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <div class="wed_gallery">
+        <div class="wed-gallery">
+            <div class="gallery-text">
+                <span>A Glimpse of</span>
+                <span>Our Moments</span>
+                <span>I would rather share one lifetime with you than face all the ages of this world alone.</span>
+                <span>J. R. R. Tolkien</span>
+            </div>
 
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="./image/sampel 1.jpeg" alt="">
+                </div>
+                <div class="gallery-item">
+                    <img src="./image/sampel 1.jpeg" alt="">
+                </div>
+                <div class="gallery-item">
+                    <img src="./image/sampel 1.jpeg" alt="">
+                </div>
+                <div class="gallery-item">
+                    <img src="./image/sampel 1.jpeg" alt="">
+                </div>
+                <div class="gallery-item">
+                    <img src="./image/sampel 1.jpeg" alt="">
+                </div>
+                <div class="gallery-item">
+                    <img src="./image/sampel 1.jpeg" alt="">
+                </div>
+                <div class="gallery-item">
+                    <img src="./image/sampel 1.jpeg" alt="">
+                </div>
+                <div class="gallery-item">
+                    <img src="./image/sampel 1.jpeg" alt="">
+                </div>
+            </div>
         </div>
 
         <div class="health_protocol">
@@ -208,5 +293,64 @@
         </footer>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script>
+            $('.story-wrapper').slick({
+                infinite: true,
+                speed: 1000,
+                autoplay: true,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                responsive: [
+                    {
+                        breakpoint: 600,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 1
+                        }
+                    },
+                    {
+                    breakpoint: 480,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    }
+                ]
+            });
+        </script>
+        <script>
+            $('.gallery').slick({
+                infinite: true,
+                speed: 1000,
+                autoplay: true,
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                responsive: [
+                    {
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 3,
+                            slidesToScroll: 1,
+                        }
+                    },
+                    {
+                        breakpoint: 600,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 1
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    }
+                ]
+            });
+        </script>
 </body>
 </html>
