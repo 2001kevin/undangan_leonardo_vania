@@ -201,9 +201,9 @@ li span{
 }
 
 .groom_photo .text2{
-    font-family: 'Tangerine', sans-serif;
+    font-family: 'Great Vibes', sans-serif;
     color: white;
-    font-size: 120px;
+    font-size: 100px;
     padding-top: 62vh;
     margin-left: 22px;
 }
@@ -612,4 +612,126 @@ i{
     height: 100%;
     object-fit: cover;
     border-radius: 12px;
+}
+
+.rsvp_makewish{
+    background-color: #3a3a38;
+    height: 100%;
+    padding-bottom: 20vh;
+    padding-top: 20vh;
+}
+
+.card{
+    
+    background-color: #3a3a38;
+    border: 0;
+}
+
+.card-body{
+    background-color: #2b2b28;
+    margin: 0 40vh;
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.header h1{
+    font-family: 'Cormorant Garamond', serif;
+    margin-top: 70px;
+    font-size: 70px;
+}
+
+.form{
+    margin: 80px 70px;
+    text-align: start;
+}
+
+.card .card_wish{
+    padding-top: 5vh;
+}
+
+.card_wish{
+    margin-top: 100px;
+}
+
+.form a{
+    text-decoration: none;
+    color: rgb(228, 228, 228);
+    padding: 8px 30px;
+    background-color: #d2b591;
+    border-radius: 10px;
+    text-align: start;
+}
+
+.form-check{
+    margin-bottom: 20px;
+}
+
+.gift{
+    background-color: #d2b591;
+    height: 100%;
+}
+
+.text_gift{
+    padding-top: 180px;
+    text-align: center;
+    color: white;
+}
+
+.text_gift h2{
+    font-family: 'Great Vibes', sans-serif;
+    font-size: 70px;
+}
+
+.text_gift p{
+    font-size: 20px;
+}
+
+.card_gift{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20vh;
+}
+
+.card_gift_body{
+    background-color: white;
+    width: 50vh;
+    height: 62vh;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.card_gift_body img{
+    width: 30vh;
+    margin-top: 12px;
+}
+
+.card_gift_body a{
+    text-decoration: none;
+    color: white;
+    background-color: #d2b591;
+    padding: 5px 15px;
+    border-radius: 8px;
+}
+
+.button_gift{
+    display: flex;
+    flex-direction: column;
+    margin: 0 120px;
+}
+
+.button_confirm{
+    margin-top: 20px;
+    margin-bottom: 12px;
+}
+
+ button{
+    color: white;
+    background-color: #d2b591;
+    padding: 4px 15px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
 }

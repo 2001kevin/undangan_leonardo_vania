@@ -281,11 +281,69 @@
         </div>
 
         <div class="rsvp_makewish">
+            <div class="card card_rsvp">
+                <div class="card-body shadow">
+                    <div class="header">
+                        <h1>RSVP</h1>
+                        <P>Please Confirm Your Attendance</P>
+                    </div>
+                    <div class="form">
+                        <label for="nama">Nama</label>
+                        <input type="text" class="form-control mb-3" placeholder="Input your name">
+                        <label for="kehadiran"></label>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1">
+                                Hadir
+                            </label>
+                        </div>
+                        <div class="form-check ">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                            <label class="form-check-label" for="flexRadioDefault2">
+                                tidak hadir
+                            </label>
+                        </div>
+                        
+                        <a href="#" class="button">Submit</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card card_wish ">
+                <div class="card-body shadow">
+                    <div class="header">
+                        <h1>Make a Wish</h1>
+                        <P>It is an honor and pleasure for us, if you can attend and give us your blessing</P>
+                    </div>
+                    <div class="form">
+                        <label for="nama">Nama</label>
+                        <input type="text" class="form-control mb-4" placeholder="Input your name">
 
+                        <label for="nama">Your Wish</label>
+                        <textarea class="form-control mb-4" placeholder="Input Your Wish" style="height: 100px"></textarea>
+                        <a href="#" class="button">Submit</a>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <div class="gift">
+            <div class="text_gift">
+                <h2>Share Love</h2>
+                <p>Your prayers & blessings at our wedding is enough as a gift, but if you want to give more, we are happy to <br> receive it and it will complement our happiness even more</p>
+            </div>
 
+            <div class="card_gift">
+                <div class="card_gift_body shadow-lg">
+                    <img src="image/qris_sample-removebg-preview.png" alt="">
+                    <h2>Bank BNI</h2>
+                    <p>Cevin Wahyu Cristianto</p>
+                    <p id="noRek">1119729571</p>
+                    <div class="button_gift">
+                        <button href="" class="button_copy" onclick="copyContent()">Copy</button>
+                        <a href="#" class="button_confirm"><i class="fa-brands fa-whatsapp"></i>Confirm</a>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <footer>
@@ -353,5 +411,17 @@
                 ]
             });
         </script>
+        <script>
+            let text = document.getElementById('noRek').innerHTML;
+            const copyContent = async () => {
+                try {
+                await navigator.clipboard.writeText(text);
+                console.log('No Rekening copied to clipboard');
+                } catch (err) {
+                console.error('Failed to copy: ', err);
+                }
+            }
+        </script>
+        
 </body>
 </html>
