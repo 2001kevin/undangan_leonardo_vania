@@ -23,7 +23,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url('image/pexels-sandro-crepulja-3352398.jpg') no-repeat fixed center;
+    background: url('image/foto_berdua.jpg') no-repeat fixed center;
     background-size: cover;
 }
 
@@ -72,7 +72,7 @@ span{
     font-size: 30px;
 }
 
-a .button{
+.content a {
     margin-top: 20px;
     padding: 12px 30px;
     border: 1px solid #B39D5A;
@@ -90,7 +90,7 @@ a .button{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url('image/wedding\ \(2\).jpg') ;
+    background: url('image/foto_berdua.jpg') ;
     background-size: cover;
 }
 
@@ -118,7 +118,7 @@ a .button{
     display: flex;
     position: relative;
     align-items: center;
-    justify-content: cente;
+    justify-content: center;
     flex-direction: column;
     color: white;
     margin-top: 300px;
@@ -168,7 +168,7 @@ a .button{
 }
 
 .wedding{
-    background-image: url('image/undangan_virtual_ss.png');
+    background-image: url('image/wedding_day.jpg');
     background-size: cover;
     height: 1800vh;
 }
@@ -179,10 +179,39 @@ a .button{
 }
 
 .groom_photo{
-    background: url('image/sampel\ 1.jpeg');
+    position: relative;
+    background: url('image/grooms.jpg');
     background-size: cover;
     width:50%;
     height: 100vh;
+}
+
+.groom_photo::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background: linear-gradient(#00000015, #0000009c);
+}
+
+.bride_photo{
+    position: relative;
+    background: url('image/brides.jpg');
+    background-size: cover;
+    width:50%;
+    height: 100vh;
+}
+
+.bride_photo::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background: linear-gradient(#00000015, #0000009c);
 }
 
 
@@ -197,10 +226,20 @@ li span{
 }
 
 .text_groom{
+    position: relative;
     margin-left: 20px;
 }
 
 .groom_photo .text2{
+    
+    font-family: 'Great Vibes', sans-serif;
+    color: white;
+    font-size: 100px;
+    padding-top: 62vh;
+    margin-left: 22px;
+}
+
+.bride_photo .text2{
     font-family: 'Great Vibes', sans-serif;
     color: white;
     font-size: 100px;
@@ -298,7 +337,7 @@ li span{
 
 .card_header{
     position: relative;
-    background: url('image/sampel\ 1.jpeg');
+    background: url('image/wedding_day.jpg');
     background-size: cover;
     height: 42%;
     display: flex;
@@ -549,7 +588,7 @@ i{
     width: 100%;
     height: 100%;
     display: block;
-    background-image: url('./image/sampel\ 1.jpeg');
+    background-image: url('./image/glimps.jpg');
     background-size: cover;
     filter: blur(3px) brightness(0.5);
     transform: scale(1.2);
@@ -693,6 +732,7 @@ i{
     align-items: center;
     justify-content: center;
     padding-bottom: 20vh;
+    margin-top: 100px;
 }
 
 .card_gift_body{
@@ -734,4 +774,41 @@ i{
     border-radius: 8px;
     border: none;
     outline: none;
+}
+
+footer{
+    position: relative; 
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('image/foto_berdua.jpg') no-repeat fixed center;
+    background-size: cover ;
+    
+}
+
+footer::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.403);
+}
+
+.content_footer{
+    text-align: center;
+    position: relative;
+    color: white;
+}
+
+.content_footer p{
+    font-size: 24px;
+}
+
+.content_footer h2{
+    font-family: 'Great Vibes', sans-serif;
+    font-size: 72px;
 }
