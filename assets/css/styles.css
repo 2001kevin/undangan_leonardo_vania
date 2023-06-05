@@ -25,7 +25,8 @@ body{
     justify-content: center;
     background: url('https://ik.imagekit.io/u1ds9zj1i/image/foto_berdua_medium.jpg?updatedAt=1685940335624') no-repeat fixed center;
     background-size: cover;
-    
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .cover-undangan::before{
@@ -61,6 +62,7 @@ span{
 .content p{
     color: white;
     margin: 10px;
+    text-align: center;
 }
 
 .nama_tamu p{
@@ -760,7 +762,7 @@ i{
 .card_gift_body{
     background-color: white;
     width: 50vh;
-    height: 62vh;
+    height: 66vh;
     text-align: center;
     border-radius: 10px;
 }
@@ -861,6 +863,7 @@ footer::before{
     opacity: 1;
   }
 }
+
 
 
 
