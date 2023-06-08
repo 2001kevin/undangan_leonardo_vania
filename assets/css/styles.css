@@ -1,647 +1,644 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;500;600&family=Great+Vibes&family=Herr+Von+Muellerhoff&family=Playfair+Display&family=Poppins:wght@100;200;500&family=Tangerine&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Allison&family=Cormorant+Garamond&family=Montserrat&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;500;600&family=Great+Vibes&family=Herr+Von+Muellerhoff&family=Playfair+Display&family=Poppins:wght@100;200;500&family=Tangerine&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Allison&family=Cormorant+Garamond&family=Montserrat&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    font-family: 'Poppins', sans-serif;
-    height: 100%;
+body {
+  font-family: "Poppins", sans-serif;
+  height: 100%;
 }
 
-.content{
-    margin-top: 200px;
+.content {
+  margin-top: 200px;
 }
 
-.cover-undangan{
-    position: relative; 
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: url('https://ik.imagekit.io/u1ds9zj1i/image/foto_berdua_medium.jpg?updatedAt=1685940335624') no-repeat fixed center;
-    background-size: cover;
-    overflow-x: hidden;
-    overflow-y: hidden;
+.cover-undangan {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("https://ik.imagekit.io/u1ds9zj1i/image/foto_berdua_medium.jpg?updatedAt=1685940335624")
+    no-repeat fixed center;
+  background-size: cover;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
-.cover-undangan::before{
-    content: "";
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    background-color: rgba(0,0,0,0.70);
-
+.cover-undangan::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
-.content{
-    display: flex;
-    position: relative;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+.content {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
-.title_wedding p{
-    font-family: 'Playfair Display', sans-serif !important;
-    font-weight: lighter;
-    font-size: 100px;
-    color: white;
+.title_wedding p {
+  font-family: "Playfair Display", sans-serif !important;
+  font-weight: lighter;
+  font-size: 100px;
+  color: white;
 }
 
-span{
-    color: #B39D5A;
+span {
+  color: #b39d5a;
 }
 
-.content p{
-    color: white;
-    margin: 10px;
-    text-align: center;
+.content p {
+  color: white;
+  margin: 10px;
+  text-align: center;
 }
 
-.nama_tamu p{
-    font-size: xx-large;
-    font-weight: 700;
+.nama_tamu p {
+  font-size: xx-large;
+  font-weight: 700;
 }
 
-.wedding-of p{
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 30px;
+.wedding-of p {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 30px;
 }
 
 .content a {
-    margin-top: 20px;
-    padding: 12px 30px;
-    border: 1px solid #B39D5A;
-    border-radius: 8px;
-    border-color: #B39D5A;
-    background-color: #111111;
-    text-decoration: none;
-    color: white;
+  margin-top: 20px;
+  padding: 12px 30px;
+  border: 1px solid #b39d5a;
+  border-radius: 8px;
+  border-color: #b39d5a;
+  background-color: #111111;
+  text-decoration: none;
+  color: white;
 }
 
-.elemen_1{
-    position: relative; 
-    height: auto;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: url('https://ik.imagekit.io/u1ds9zj1i/image/foto_berdua_medium.jpg?updatedAt=1685940335624') ;
-    background-size: cover;
+.elemen_1 {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  background: url("https://ik.imagekit.io/u1ds9zj1i/image/foto_berdua_medium.jpg?updatedAt=1685940335624");
+  background-size: cover;
+  background-position: center;
 }
 
-.elemen_1::before{
-    content: "";
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    background-color: rgba(0, 0, 0, 0.403);
+.elemen_1::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.403);
 }
 
-.leoVania p{
-    font-family: 'Herr Von Muellerhoff', cursive;
+.leoVania p {
+  font-family: "Herr Von Muellerhoff", cursive;
 
-    font-size: 150px;
+  font-size: 150px;
 }
 
-.leoVania span{
-    margin: 0 15px;
+.leoVania span {
+  margin: 0 15px;
 }
 
-.main{
-    display: flex;
-    position: relative;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    color: white;
-    margin-top: 300px;
+.main {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
 }
 
-.quote_1{
-    background-color: #2b2b28;
+.quote_1 {
+  background-color: #2b2b28;
 }
 
-.quote_text p{
-    font-family: 'Poppins', sans-serif;
-    font-size: 22px;
-    font-weight: 300;
-    font-style: oblique;
-    text-align: center;
-    color: white;
-    justify-content: center;
-    padding-top: 30px;
+.quote_text p {
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  font-style: oblique;
+  text-align: center;
+  color: white;
+  justify-content: center;
+  padding-top: 30px;
 }
 
-.quote_author p{
-    font-size: 25px;
-    color: white;
-    text-align: center;
-    font-weight: 600;
-    margin-top: 8px;
+.quote_author p {
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  font-weight: 600;
+  margin-top: 8px;
 }
 
-.the_beloved p{
-    font-family: sans-serif;
-    font-size: 22px;
-    font-weight: 100;
-    text-align: center;
-    color: white;
-    justify-content: center;
-    padding-top: 150px;
+.the_beloved p {
+  font-family: sans-serif;
+  font-size: 22px;
+  font-weight: 100;
+  text-align: center;
+  color: white;
+  justify-content: center;
+  padding-top: 150px;
 }
 
-.groom_bride{
-    font-family: 'Cormorant Garamond', sans-serif;
-    font-size: 60px;
-    font-weight: 400;
-    text-align: center;
-    color: #B39D5A;
-    justify-content: center;
-    padding-bottom: 30px;
+.groom_bride {
+  font-family: "Cormorant Garamond", sans-serif;
+  font-size: 60px;
+  font-weight: 400;
+  text-align: center;
+  color: #b39d5a;
+  justify-content: center;
+  padding-bottom: 30px;
 }
 
-.wedding{
-    background-image: url('https://ik.imagekit.io/u1ds9zj1i/image/wedding_day.webp?updatedAt=1685937659536');
-    background-size: cover;
-    height: 1800vh;
+.wedding {
+  background-image: url("https://ik.imagekit.io/u1ds9zj1i/image/wedding_day.webp?updatedAt=1685937659536");
+  background-size: cover;
+  height: 1800vh;
 }
 
-.container_groom{
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
+.container_groom {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
 }
 
-.groom_photo{
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: end;
-    position: relative;
-    background: url('https://ik.imagekit.io/u1ds9zj1i/image/grooms_medium.jpg?updatedAt=1685940332478');
-    background-size: cover;
-    width:50%;
-    height: 100vh;
-    
+.groom_photo {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: end;
+  position: relative;
+  background: url("https://ik.imagekit.io/u1ds9zj1i/image/grooms_medium.jpg?updatedAt=1685940332478");
+  background-size: cover;
+  width: 50%;
+  height: 100vh;
 }
 
-.groom_photo::before{
-    content: "";
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    background: linear-gradient(#00000015, #0000009c);
+.groom_photo::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background: linear-gradient(#00000015, #0000009c);
 }
 
-.bride_photo{
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: end;
-    position: relative;
-    background: url('https://ik.imagekit.io/u1ds9zj1i/image/brides_medium.jpg?updatedAt=1685940334666');
-    background-size: cover;
-    width:50%;
-    height: 100vh;
+.bride_photo {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: end;
+  position: relative;
+  background: url("https://ik.imagekit.io/u1ds9zj1i/image/brides_medium.jpg?updatedAt=1685940334666");
+  background-size: cover;
+  width: 50%;
+  height: 100vh;
 }
 
-.bride_photo::before{
-    content: "";
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    background: linear-gradient(#00000015, #0000009c);
+.bride_photo::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background: linear-gradient(#00000015, #0000009c);
 }
-
 
 .social_media li {
-    display: inline;
-    text-decoration: none;
+  display: inline;
+  text-decoration: none;
 }
 
-li span{
-    color:white;
-    margin-right:40px;
+li span {
+  color: white;
+  margin-right: 40px;
 }
 
-.text_groom{
-    
-    /* position: relative; */
-    margin-left: 40px;
-    margin-bottom: 20px;
+.text_groom {
+  /* position: relative; */
+  margin-left: 40px;
+  margin-bottom: 20px;
 }
 
-.groom_photo .text2{
-   
-    font-family: 'Great Vibes', sans-serif;
-    color: white;
-    font-size: 100px;
-    /* padding-top: 62vh;
+.groom_photo .text2 {
+  font-family: "Great Vibes", sans-serif;
+  color: white;
+  font-size: 100px;
+  /* padding-top: 62vh;
     margin-left: 22px; */
 }
 
-.bride_photo .text2{
-    font-family: 'Great Vibes', sans-serif;
-    color: white;
-    font-size: 100px;
-    /* padding-top: 62vh;
+.bride_photo .text2 {
+  font-family: "Great Vibes", sans-serif;
+  color: white;
+  font-size: 100px;
+  /* padding-top: 62vh;
     margin-left: 22px; */
 }
 
-.text3{
-    font-family:'Cormorant Garamond', sans-serif ;
-    color: white;
-    font-size: 40px;
-    font-weight: 600;
-    /* margin-left: 25px; */
+.text3 {
+  font-family: "Cormorant Garamond", sans-serif;
+  color: white;
+  font-size: 40px;
+  font-weight: 600;
+  /* margin-left: 25px; */
 }
 
-.text4{
-    color: white;
-    font-weight: 300;
-    font-size: 20px;
+.text4 {
+  color: white;
+  font-weight: 300;
+  font-size: 20px;
 }
 
-.groom_text{
-    width: 102vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.groom_text {
+  width: 102vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.text1{
-    font-family: 'Cormorant Garamond', sans-serif;
-    font-weight: 600;
-    font-size: 100px;
-    writing-mode:tb-rl;
-    -webkit-transform:rotate(-90deg);
-    -moz-transform:rotate(-90deg);
-    -o-transform: rotate(-90deg);
-    -ms-transform:rotate(-90deg);
-    transform: rotate(180deg);
-    white-space:nowrap;
-    
+.text1 {
+  font-family: "Cormorant Garamond", sans-serif;
+  font-weight: 600;
+  font-size: 100px;
+  writing-mode: tb-rl;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(180deg);
+  white-space: nowrap;
 }
 
-.text1_bride{
-    font-family: 'Cormorant Garamond', sans-serif;
-    font-weight: 600;
-    font-size: 100px;
-    writing-mode:tb-rl;
-    -webkit-transform:rotate(-90deg);
-    -moz-transform:rotate(-90deg);
-    -o-transform: rotate(-90deg);
-    -ms-transform:rotate(-90deg);
-    transform: rotate(180deg);
-    white-space:nowrap;
-    
+.text1_bride {
+  font-family: "Cormorant Garamond", sans-serif;
+  font-weight: 600;
+  font-size: 100px;
+  writing-mode: tb-rl;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(180deg);
+  white-space: nowrap;
 }
 
-.quote_2{
-    background-color: #2b2b28;
-    height: 20vh;
+.quote_2 {
+  background-color: #2b2b28;
+  height: 20vh;
 }
 
-.quote_2 .quote_text2{
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    font-weight: 200;
-    text-align: center;
-    color: white;
-    justify-content: center;
-    padding-top: 30px;
+.quote_2 .quote_text2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 200;
+  text-align: center;
+  color: white;
+  justify-content: center;
+  padding-top: 30px;
 }
 
-.quote_author2 p{
-    font-size: 25px;
-    color: white;
-    text-align: center;
-    font-weight: 600;
-    margin-top: 8px;
+.quote_author2 p {
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  font-weight: 600;
+  margin-top: 8px;
 }
 
-.wedding_day{
-    background-color: #3a3a38;
-    height: 200vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
+.wedding_day {
+  background-color: #3a3a38;
+  padding: 5em 0;
+  /* height: 200vh; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.card_wedding{
-    background-color: #2b2b28;
-    height: 90%;
-    width: 80%;
-    
+.card_wedding {
+    /* padding-bottom: 3em; */
+  background-color: #2b2b28;
+  height: 90%;
+  width: 80%;
 }
 
-.card_header{
-    position: relative;
-    background: url('https://ik.imagekit.io/u1ds9zj1i/image/wedding_day.webp?updatedAt=1685937659536');
-    background-size: cover;
-    height: 42%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: end;
+.card_header {
+  position: relative;
+  background: url("https://ik.imagekit.io/u1ds9zj1i/image/wedding_day.webp?updatedAt=1685937659536");
+  background-size: cover;
+  height: 42%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
 }
 
-.card_header::before{
-    content: "";
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    background: linear-gradient(#00000015, #0000009c);
+.card_header::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background: linear-gradient(#00000015, #0000009c);
 }
 
-.card_header p{
-    position: relative;
+.card_header p {
+  position: relative;
 }
 
-.header_text{
-    font-size: 20px;
-    color: white;
-    text-align: center;
+.header_text {
+  font-size: 20px;
+  color: white;
+  text-align: center;
 }
 
-.wed_text p{
-    font-family: 'Great Vibes', sans-serif ;
-    font-size: 60px;
-    color: white;
-    text-align: center;
+.wed_text p {
+  font-family: "Great Vibes", sans-serif;
+  font-size: 60px;
+  color: white;
+  text-align: center;
 }
 
-.quote_header p{ 
-    font-size: 20px;
-    font-weight: 200;
-    color: white;
-    text-align: center;
+.quote_header p {
+  font-size: 20px;
+  font-weight: 200;
+  color: white;
+  text-align: center;
 }
 
-.author_header p{
-    font-size: 20px;
-    color: white;
-    text-align: center;
-    padding-bottom: 30px;
+.author_header p {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding-bottom: 30px;
 }
 
-.card_body{
-    display: flex;
-    flex-basis: 2;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20vh;
-    background-color: #2b2b28;
-    color: white;
-    font-family: 'Cormorant Garamond', sans-serif;
-    
+.card_body {
+  display: flex;
+  /* flex-basis: 2; */
+  justify-content: center;
+  align-items: center;
+  padding: 3em 0;
+  /* gap: 2em; */
+  background-color: #2b2b28;
+  color: white;
+  font-family: "Cormorant Garamond", sans-serif;
 }
 
-.pemberkatan{
-    padding-left: 5vh;
-    padding-right: 5vh;
+.pemberkatan {
+    padding: 0 2em;
 }
 
-.text_pemberkatan h2{
-    font-size: 50px;
-    text-align: center;
+.text_pemberkatan h2 {
+  font-size: 50px;
+  text-align: center;
 }
 
-.line{
-    width: 450px;
-    height: 1px;
-    background-color: white;
-    margin: 20px auto 20px;
+.line {
+  width: 450px;
+  height: 1px;
+  background-color: white;
+  margin: 20px auto 20px;
 }
 
-.resepsi{
-    padding-right: 5vh;
-    padding-left: 5vh;
+.resepsi {
+    padding: 0 2em;
 }
 
-.text_resepsi h2{
-    font-size: 50px;
-    text-align: center;
+.text_resepsi h2 {
+  font-size: 50px;
+  text-align: center;
 }
 
-.card_content{
-    font-family: 'Poppins', sans-serif;
-    color: #B39D5A;
-    text-align: start;
+.card_content {
+  font-family: "Poppins", sans-serif;
+  color: #b39d5a;
+  text-align: start;
 }
 
-.tanggal p{
-    margin-top: 20px;
-    font-size: 17px;
+.tanggal p {
+  margin-top: 20px;
+  font-size: 17px;
 }
 
-i{
-    margin-right: 8px;
+i {
+  margin-right: 8px;
 }
 
-.card_content{
-    text-align: start;
+.card_content {
+  text-align: start;
 }
 
-.jam p{
-    margin-top: 20px;
-    font-size: 17px;
+.jam p {
+  margin-top: 20px;
+  font-size: 17px;
 }
 
-.button_group{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.button_group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-
-.button_group a{
-    font-family: 'Poppins', sans-serif;
-    text-decoration: none;
-    color: white;
-    padding: 8px 20px;
-    background-color: #B39D5A;
-    margin-bottom: 10px;
-    margin-top: 20px;
-    border: 0;
-    border-radius: 10px;
+.button_group a {
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  color: #2B2B28;
+  padding: 8px 20px;
+  background-color: #b39d5a;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  border: 0;
+  border-radius: 10px;
 }
 
 /* WEDDING STORY */
 .wed-story {
-    position: relative;
-    width: 100%;
-    min-height: 100vh;
-    padding: 5em 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #d2b591;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: 5em 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #d2b591;
+  color: white;
+  font-family: "Montserrat", sans-serif;
 }
 
 .wed-story > span {
-    color: white;
+  color: white;
 }
 
 .wed-story > span:nth-child(1) {
-    font-size: 1.9em;
+  font-size: 1.9em;
 }
 
 .wed-story > span:nth-child(2) {
-    margin-top: -30px;
-    font-size: 5.6em;
-    font-family: 'Allison', cursive;
+  margin-top: -30px;
+  font-size: 5.6em;
+  font-family: "Allison", cursive;
 }
 
 .wed-story > span:nth-child(3) {
-    font-size: 1.25em;
+  font-size: 1.25em;
 }
 
 .story-wrapper {
-    width: 80%;
-    margin-top: 3em;
-    overflow-x: hidden;
+  width: 80%;
+  margin-top: 3em;
+  overflow-x: hidden;
 }
 
 .story-card {
-    width: 250px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 2em;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
 }
 
 .story-title {
-    position: relative;
-    width: 100%;
-    padding: 1em;
-    text-align: center;
-    border-bottom: 3px solid white;
-    margin-bottom: 2em;
+  position: relative;
+  width: 100%;
+  padding: 1em;
+  text-align: center;
+  border-bottom: 3px solid white;
+  margin-bottom: 2em;
 }
 
 .story-title::after {
-    position: absolute;
-    left: calc(50% - 7.5px);
-    bottom: -8.5px;
-    content: '';
-    width: 15px;
-    aspect-ratio: 1/1;
-    background-color: white;
-    transform: rotate(45deg);
+  position: absolute;
+  left: calc(50% - 7.5px);
+  bottom: -8.5px;
+  content: "";
+  width: 15px;
+  aspect-ratio: 1/1;
+  background-color: white;
+  transform: rotate(45deg);
 }
 
 .story-title > span {
-    color: white;
+  color: white;
 }
 
 .story-image {
-    width: 100%;
-    display: flex;
-    justify-content: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .story-image img {
-    width: 150px;
-    aspect-ratio: 1/1;
-    object-fit: cover;
-    border-radius: 50%;
+  width: 150px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
 .story-year {
-    margin-top: 1em;
-    text-align: center;
+  margin-top: 1em;
+  text-align: center;
 }
 
 .story-year > span {
-    color: white;
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 2em;
-    font-weight: 700;
+  color: white;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 2em;
+  font-weight: 700;
 }
 
 /* WEDDING GALLERY */
 .wed-gallery {
-    position: relative;
-    max-width: 100%;
-    min-height: 100vh;
-    padding: 5em 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 3em;
-    overflow-x: hidden;
-    overflow-y: hidden;
+  position: relative;
+  max-width: 100%;
+  min-height: 100vh;
+  padding: 5em 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3em;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .wed-gallery::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: block;
-    background-image: url('https://ik.imagekit.io/u1ds9zj1i/image/glimps.webp?updatedAt=1685937652950');
-    background-size: cover;
-    filter: blur(3px) brightness(0.5);
-    transform: scale(1.2);
-    z-index: -1;
-    
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-image: url("https://ik.imagekit.io/u1ds9zj1i/image/glimps.webp?updatedAt=1685937652950");
+  background-size: cover;
+  filter: blur(3px) brightness(0.5);
+  transform: scale(1.2);
+  z-index: -1;
 }
 
+.wed-gallery iframe {
+    width:700px; 
+    height:400px;
+    margin-top: 10px;
+    border-radius: 12px;
+  }
+
 .gallery-text {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .gallery-text > span {
-    color: white;
-    font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-family: "Montserrat", sans-serif;
 }
 
 .gallery-text span:nth-child(1) {
-    font-size: 1.85em;
+  font-size: 1.85em;
 }
 
 .gallery-text span:nth-child(2) {
-    margin-top: -30px;
-    font-size: 5.5em;
-    font-family: 'Allison', cursive;
-    text-shadow: 2px 2px 1px black;
+  margin-top: -30px;
+  font-size: 5.5em;
+  font-family: "Allison", cursive;
+  text-shadow: 2px 2px 1px black;
 }
 
 .gallery-text span:nth-child(3) {
-    font-size: 1.2em;
+  font-size: 1.2em;
 }
 
 .gallery-text span:nth-child(4) {
-    font-size: 1.2em;
-    font-weight: bolder;
+  font-size: 1.2em;
+  font-weight: bolder;
 }
 
 /* .gallery {
@@ -650,194 +647,195 @@ i{
 } */
 
 .gallery-item {
-    height: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    color: #333;
-    font-size: 24px;
-    margin:0 12px;
-    
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #333;
+  font-size: 24px;
+  margin: 0 12px;
 }
 
 .gallery-item img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 12px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
 }
 
-.rsvp_makewish{
-    background-color: #3a3a38;
-    height: 100%;
-    padding-bottom: 20vh;
-    padding-top: 20vh;
+.rsvp_makewish {
+  background-color: #3a3a38;
+  height: 100%;
+  padding-bottom: 20vh;
+  padding-top: 20vh;
 }
 
-.card{
-    
-    background-color: #3a3a38;
-    border: 0;
+.card {
+  background-color: #3a3a38;
+  border: 0;
 }
 
-.card-body{
-    background-color: #2b2b28;
-    margin: 0 40vh;
-    color: white;
-    text-align: center;
-    border-radius: 15px;
+.card-body {
+  background-color: #2b2b28;
+  margin: 0 40vh;
+  color: white;
+  text-align: center;
+  border-radius: 15px;
 }
 
-.header h1{
-    font-family: 'Cormorant Garamond', serif;
-    margin-top: 70px;
-    font-size: 70px;
+.header h1 {
+  font-family: "Cormorant Garamond", serif;
+  margin-top: 70px;
+  font-size: 70px;
 }
 
-.form{
-    margin: 80px 70px;
-    text-align: start;
+.form {
+  margin: 80px 70px;
+  text-align: start;
 }
 
-.card .card_wish{
-    padding-top: 5vh;
+.card .card_wish {
+  padding-top: 5vh;
 }
 
-.card_wish{
-    margin-top: 100px;
+.card_wish {
+  margin-top: 100px;
 }
 
-.form a{
-    text-decoration: none;
-    color: rgb(228, 228, 228);
-    padding: 8px 30px;
-    background-color: #d2b591;
-    border-radius: 10px;
-    text-align: start;
+.form a {
+  text-decoration: none;
+  color: rgb(228, 228, 228);
+  padding: 8px 30px;
+  background-color: #d2b591;
+  border-radius: 10px;
+  text-align: start;
 }
 
-.form-check{
-    margin-bottom: 20px;
+.form-check {
+  margin-bottom: 20px;
 }
 
-.gift{
-    background-color: #d2b591;
-    height: 100%;
+.gift {
+  width: 100%;
+  padding: 5em 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3em;
+  background-color: #d2b591;
+  height: 100%;
 }
 
-.text_gift{
-    padding-top: 180px;
-    text-align: center;
-    color: white;
+.text_gift {
+  grid-column: 1/3;
+  text-align: center;
+  color: white;
 }
 
-.text_gift h2{
-    font-family: 'Great Vibes', sans-serif;
-    font-size: 70px;
+.text_gift h2 {
+  font-family: "Great Vibes", sans-serif;
+  font-size: 70px;
 }
 
-.text_gift p{
-    font-size: 20px;
+.text_gift p {
+  font-size: 20px;
 }
 
-.card_gift{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 8vh;
-    margin-top: 50px;
+.card_gift {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: center;
 }
 
-.card_gift2{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 20vh;
-    margin-top: 5px;
+.card_gift2 {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
 }
 
-.card_gift_body{
-    background-color: white;
-    width: 50vh;
-    height: 66vh;
-    text-align: center;
-    border-radius: 10px;
+.card_gift_body {
+  background-color: white;
+  width: 50vh;
+  height: fit-content;
+  text-align: center;
+  border-radius: 10px;
 }
 
-.card_gift_body img{
-    width: 240px;
-    height: auto;
-    margin-top: 12px;
+.card_gift_body img {
+  width: 240px;
+  height: auto;
+  margin-top: 12px;
 }
 
-.card_gift_body a{
-    text-decoration: none;
-    color: white;
-    background-color: #d2b591;
-    padding: 5px 15px;
-    border-radius: 8px;
+.card_gift_body a {
+  text-decoration: none;
+  color: white;
+  background-color: #d2b591;
+  padding: 5px 15px;
+  border-radius: 8px;
 }
 
-.button_gift{
-    display: flex;
-    flex-direction: column;
-    
-    align-items: center;
-    margin: 0 120px;
+.button_gift {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  margin: 0 120px;
 }
 
-.button_confirm{
-    margin-top: 20px;
-    margin-bottom: 12px;
+.button_confirm {
+  margin-top: 20px;
+  margin-bottom: 12px;
 }
 
- button{
-    color: white;
-    background-color: #d2b591;
-    padding: 4px 15px;
-    border-radius: 8px;
-    border: none;
-    outline: none;
+button {
+  color: white;
+  background-color: #d2b591;
+  padding: 4px 15px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
 }
 
-footer{
-    position: relative; 
-    height: 60vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: url('https://ik.imagekit.io/u1ds9zj1i/image/foto_berdua_medium.jpg?updatedAt=1685940335624') no-repeat fixed center;
-    background-size: cover ;
-    
+footer {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("https://ik.imagekit.io/u1ds9zj1i/image/foto_berdua_medium.jpg?updatedAt=1685940335624")
+    no-repeat fixed center;
+  background-size: cover;
 }
 
-footer::before{
-    content: "";
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    background-color: rgba(0, 0, 0, 0.403);
+footer::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.403);
 }
 
-.content_footer{
-    text-align: center;
-    position: relative;
-    color: white;
+.content_footer {
+  text-align: center;
+  position: relative;
+  color: white;
 }
 
-.content_footer p{
-    font-size: 24px;
+.content_footer p {
+  font-size: 24px;
 }
 
-.content_footer h2{
-    font-family: 'Great Vibes', sans-serif;
-    font-size: 72px;
+.content_footer h2 {
+  font-family: "Great Vibes", sans-serif;
+  font-size: 72px;
 }
 
 .reveal {
@@ -863,7 +861,3 @@ footer::before{
     opacity: 1;
   }
 }
-
-
-
-

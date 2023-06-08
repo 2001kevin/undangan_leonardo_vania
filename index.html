@@ -178,8 +178,8 @@
                             </div>
                         </div>
                         <div class="button_group">
-                            <a href=""><i class="fa-solid fa-map-location-dot"></i>Open Map</a>
-                            <a href=""><i class="fa-regular fa-calendar-days"></i>Add to Calender</a>
+                            <a href="https://www.google.com/maps/place/Raffles+Bali/@-8.7863798,115.15788,15z/data=!4m20!1m10!3m9!1s0x2dd2451d753a5665:0x323032493326bdae!2sRaffles+Bali!5m2!4m1!1i2!8m2!3d-8.7863798!4d115.15788!16s%2Fg%2F11ghq93m28!3m8!1s0x2dd2451d753a5665:0x323032493326bdae!5m2!4m1!1i2!8m2!3d-8.7863798!4d115.15788!16s%2Fg%2F11ghq93m28?entry=ttu" target="_blank"><i class="fa-solid fa-map-location-dot"></i>Open Map</a>
+                            <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=My Event&details=Event description text&dates=20220305T103000/20220305T184500&location=New York City" target="_blank"><i class="fa-regular fa-calendar-days"></i>Add to Calender</a>
                         </div>
                     </div>
                     <div class="resepsi">
@@ -205,8 +205,8 @@
                             </div>
                         </div>
                         <div class="button_group">
-                            <a href=""><i class="fa-solid fa-map-location-dot"></i>Open Map</a>
-                            <a href=""><i class="fa-regular fa-calendar-days"></i>Add to Calender</a>
+                            <a href="https://www.google.com/maps/place/Raffles+Bali/@-8.7863798,115.15788,15z/data=!4m20!1m10!3m9!1s0x2dd2451d753a5665:0x323032493326bdae!2sRaffles+Bali!5m2!4m1!1i2!8m2!3d-8.7863798!4d115.15788!16s%2Fg%2F11ghq93m28!3m8!1s0x2dd2451d753a5665:0x323032493326bdae!5m2!4m1!1i2!8m2!3d-8.7863798!4d115.15788!16s%2Fg%2F11ghq93m28?entry=ttu" target="_blank"><i class="fa-solid fa-map-location-dot"></i>Open Map</a>
+                            <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=My Event&details=Event description text&dates=20220305T103000/20220305T184500&location=New York City" target="_blank"><i class="fa-regular fa-calendar-days"></i>Add to Calender</a>
                         </div>
                     </div>
                 </div>
@@ -272,9 +272,9 @@
                 <span>Our Moments</span>
                 <span>I would rather share one lifetime with you than face all the ages of this world alone.</span>
                 <span>J. R. R. Tolkien</span>
-            </div>
-
+                <iframe  src="https://www.youtube.com/embed/1-GLrbJzG3A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
             <div class="gallery">
+                
                 <div class="gallery-item">
                     <img src="https://ik.imagekit.io/u1ds9zj1i/image/1_medium.jpg?updatedAt=1685940335056" alt="" >
                 </div>
@@ -314,8 +314,6 @@
                         <P>Please Confirm Your Attendance</P>
                     </div>
                     <div class="form">
-                        <label for="nama">Nama</label>
-                        <input type="text" class="form-control mb-3" placeholder="Input your name">
                         <label for="kehadiran"> Kehadiran</label>
                         <div class="form-check">
                             <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
@@ -341,9 +339,6 @@
                         <P>It is an honor and pleasure for us, if you can attend and give us your blessing</P>
                     </div>
                     <div class="form">
-                        <label for="nama">Nama</label>
-                        <input type="text" class="form-control mb-4" placeholder="Input your name">
-
                         <label for="nama">Your Wish</label>
                         <textarea class="form-control mb-4" placeholder="Input Your Wish" style="height: 100px"></textarea>
                         <a href="#" class="button">Submit</a>
@@ -396,71 +391,10 @@
         <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         
-        <script>
-            $('.story-wrapper').slick({
-                infinite: true,
-                speed: 1000,
-                autoplay: true,
-                slidesToShow: 3,
-                slidesToScroll: 1,
-                responsive: [
-                    {
-                        breakpoint: 600,
-                        settings: {
-                            slidesToShow: 2,
-                            slidesToScroll: 1
-                        }
-                    },
-                    {
-                    breakpoint: 480,
-                        settings: {
-                            slidesToShow: 1,
-                            slidesToScroll: 1
-                        }
-                    }
-                ]
-            });
-        </script>
+        <script src="assets/js/story.js"></script>
         
-        <script>
-            $('.gallery').slick({
-                infinite: true,
-                speed: 1000,
-                autoplay: true,
-                slidesToShow: 4,
-                slidesToScroll: 1,
-                arrows: true,
-                responsive: [
-                    {
-                        breakpoint: 1024,
-                        settings: {
-                            slidesToShow: 3,
-                            slidesToScroll: 1,
-                        }
-                    },
-                    {
-                        breakpoint: 600,
-                        settings: {
-                            slidesToShow: 2,
-                            slidesToScroll: 1
-                        }
-                    },
-                    {
-                        breakpoint: 480,
-                        settings: {
-                            slidesToShow: 1,
-                            slidesToScroll: 1
-                        }
-                    },
-                    {
-                        breakpoint: 320,
-                        settings: {
-                            slidesToShow: 1,
-                            slidesToScroll: 1
-                        }
-                    }
-                ]
-            });
+        <script src="assets/js/gallery.js">
+            
         </script>
         <script>
             let text = document.getElementById('noRek').innerHTML;
