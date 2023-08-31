@@ -1,7 +1,6 @@
 $(".story-wrapper").slick({
-  infinite: true,
-  speed: 1000,
-  autoplay: true,
+  
+  autoplay: false,
   slidesToShow: 3,
   slidesToScroll: 1,
   responsive: [
