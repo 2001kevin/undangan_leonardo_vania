@@ -23,7 +23,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url("/image/foto_berdua.webp")
+  background: url("/image/DSC00004.webp")
     no-repeat fixed center;
   background-size: cover;
   overflow-x: hidden;
@@ -93,7 +93,7 @@ span {
   display: flex;
   align-items: end;
   justify-content: center;
-  background: url("/image/foto_berdua.webp");
+  background: url("/image/DSC00510.webp");
   background-size: cover;
   background-position: center;
 }
@@ -171,7 +171,7 @@ span {
 }
 
 .wedding {
-  background-image: url("/image/wedding_day.webp");
+  background-image: url("/image/DSC00274.webp");
   background-size: cover;
   height: 1800vh;
 }
@@ -188,7 +188,7 @@ span {
   align-items: start;
   justify-content: end;
   position: relative;
-  background: url("/image/grooms.webp");
+  background: url("/image/DSC00057.webp");
   background-size: cover;
   width: 50%;
   height: 100vh;
@@ -210,7 +210,7 @@ span {
   align-items: start;
   justify-content: end;
   position: relative;
-  background: url("/image/brides.webp");
+  background: url("/image/DSC00118-2.webp");
   background-size: cover;
   width: 50%;
   height: 100vh;
@@ -346,7 +346,7 @@ li span {
 
 .card_header {
   position: relative;
-  background: url("/image/wedding_day.webp");
+  background: url("/image/DSC00274.webp");
   background-size: cover;
   height: 70vh;
   display: flex;
@@ -594,7 +594,7 @@ i {
   width: 100%;
   height: 100%;
   display: block;
-  background-image: url("/image/glimps.webp");
+  background-image: url("/image/DSC00004.webp");
   background-size: cover;
   filter: blur(3px) brightness(0.5);
   transform: scale(1.2);
@@ -808,7 +808,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url("/image/foto_berdua_medium.jpg")
+  background: url("/image/DSC00274.webp")
     no-repeat fixed center;
   background-size: cover;
 }
