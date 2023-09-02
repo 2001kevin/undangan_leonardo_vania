@@ -174,12 +174,6 @@ span {
   padding-bottom: 30px;
 }
 
-.wedding {
-  background-image: url("https://ik.imagekit.io/u1ds9zj1i/image/bride.jpg?updatedAt=1693664526072");
-  background-size: cover;
-  height: 1800vh;
-}
-
 .container_groom {
   display: flex;
   background-color: #424242;
