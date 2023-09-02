@@ -21,6 +21,12 @@
     overflow-x: hidden;
     overflow-y: hidden;
   }
+  .content{
+    margin-top: 380px;
+  }
+  .main{
+    text-align: center;
+  }
   .title_wedding p {
     font-size: 36px;
     color: white;
@@ -40,7 +46,8 @@
   }
 
   .leoVania p {
-    font-size: 60px;
+    font-size: 40px;
+    text-align: center;
   }
 
   .wedding-of p {
@@ -178,6 +185,7 @@
 
   .card_header {
     background-position: center;
+    padding-top: 120px;
     height: 28%;
   }
 
@@ -530,7 +538,7 @@
 
   .card_header {
     background-position: center;
-    height: 28%;
+    padding-top: 120px;
   }
 
   .header_text {
@@ -856,6 +864,7 @@
 
   .card_header {
     background-position: center;
+    padding-top: 500px;
     height: 42%;
   }
 
