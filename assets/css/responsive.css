@@ -1,4 +1,4 @@
-@media screen and (max-width: 475px) {
+@media screen and (max-width: 612px) {
   .gift {
     grid-template-columns: 1fr;
   }
@@ -376,6 +376,12 @@
   }
 }
 
+@media screen and (min-width: 320px) and (max-width: 385px) {
+  span .over_word{
+    margin-left: 17px;
+  }
+}
+
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .cover-undangan {
     overflow-x: hidden;
@@ -397,7 +403,7 @@
   }
 
   .leoVania p {
-    font-size: 100px;
+    font-size: 90px;
   }
 
   .wedding-of p {
@@ -660,6 +666,10 @@
     margin: 0 20px;
   }
 
+  .card_gift_body{
+    width: 10px;
+  }
+
   .card_gift_body img {
     width: 200px;
     margin-top: 12px;
@@ -693,7 +703,7 @@
 
   .card_gift_body {
     background-color: white;
-    width: 50vh;
+    width: 30vh;
     height: fit-content;
     text-align: center;
     border-radius: 10px;
@@ -715,7 +725,7 @@
 
 @media screen and (min-width: 1024px) and (max-width: 1300px) {
   .title_wedding p {
-    font-size: 100px;
+    font-size: 80px;
     color: white;
   }
 
@@ -728,7 +738,7 @@
   }
 
   .leoVania p {
-    font-size: 150px;
+    font-size: 100px;
   }
 
   .wedding-of p {
