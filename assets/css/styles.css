@@ -24,7 +24,7 @@ body {
   align-items: center;
   justify-content: center;
   background: url("https://ik.imagekit.io/u1ds9zj1i/image/cover.jpg?updatedAt=1693664528727")
-    no-repeat fixed center;
+     fixed center;
   background-size: cover;
   overflow-x: hidden;
   overflow-y: hidden;
