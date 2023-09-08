@@ -20,10 +20,10 @@
     <title>Leo Vania</title>
 </head>
 <body>
-    <audio src="Robin Thicke - The Sweetest Love(Lyrics).mp3" autoplay>
+    <audio id="myAudio" src="Robin Thicke - The Sweetest Love(Lyrics).mp3" autoplay>
     </audio>
     <!-- modal cover undangan -->
-        <div class="modal fade" id="onload" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"> <!-- Add this line to your code -->
+        <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"> <!-- Add this line to your code -->
             <div class="modal-dialog modal-fullscreen">
                 <div class="modal-content">
                         <div class="cover-undangan">
@@ -39,14 +39,14 @@
                                     <p>Cevin</p>
                                 </div>
                                 <p>You are cordially invited to our wedding.</p>
-                                <a class="button" href="#" data-bs-dismiss="modal">Open Invitation</a>
+                                <a class="button close" href="#" data-bs-dismiss="modal" >Open Invitation</a>
                             </div>
                         </div>     
                 </div>
             </div>
         </div> 
 
-        <div class="elemen_1">
+        <div class="elemen_1" id="main_content">
             <div class="main">
                 <div class="wedding-of">
                     <p>The Wedding of</p>
@@ -365,8 +365,19 @@
 
         <script type="text/javascript">
             window.onload = () => {
-                $('#onload').modal('show');
+                $('#myModal').modal('show');
             }
+        </script>
+
+        <script>
+            const audio = document.getElementById('myAudio');
+            
+            const closeBtn = modal.querySelector('.close');
+
+            closeBtn.addEventListener("click", function(){
+                audio.play();
+            });
+            
         </script>
 
         <script src="assets/js/scroll.js"></script>
