@@ -26,7 +26,7 @@
         <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"> <!-- Add this line to your code -->
             <div class="modal-dialog modal-fullscreen">
                 <div class="modal-content">
-                        <div class="cover-undangan">
+                        <div class="modal-body cover-undangan">
                             <div class="content">
                                 <div class="wedding-of">
                                     <p>The Wedding of</p>
@@ -370,14 +370,14 @@
         </script>
 
         <script>
+            
             const modal = document.getElementById('myModal');
             const audio = document.getElementById('myAudio');
             
             const closeBtn = modal.querySelector('.close');
-
+            
             closeBtn.addEventListener("click", function(){
                 modal.style.display = "none";
-                // modal.close();
                 audio.play();
             });
             
