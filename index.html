@@ -11,6 +11,11 @@
         src="https://kit.fontawesome.com/32f82e1dca.js"
         crossorigin="anonymous"
     ></script>
+    <script type="text/javascript">
+            window.onload = () => {
+                $('#myModal').modal('show');
+            }
+        </script>
     <!-- CDN Slick -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -54,6 +59,16 @@
                 <div class="leoVania">
                     <p>Vania<span>&</span>Leonardo</p>
                 </div>
+                <!-- <div class="container">
+                    <div id="countdown">
+                        <ul>
+                            <li><span id="days"></span>days</li>
+                            <li><span id="hours"></span>Hours</li>
+                            <li><span id="minutes"></span>Minutes</li>
+                            <li><span id="seconds"></span>Seconds</li>
+                        </ul>
+                    </div>
+                </div> -->
                 <div class="wedding-of">
                     <p>28.10.2023</p>
                 </div>
@@ -129,7 +144,7 @@
                         <div class="line"></div>
                         <div class="card_content">
                             <div class="tanggal">
-                                <p><i class="fa-regular fa-calendar"></i>Saturday, 28 October 2023</p>
+                                <p><i class="fa-regular fa-calendar"></i>Saturday, 28th October 2023</p>
                             </div>
                             <div class="jam">
                                 <p><i class="fa-regular fa-clock"></i>08.00 WIB</p>
@@ -156,7 +171,7 @@
                         <div class="line"></div>
                         <div class="card_content">
                             <div class="tanggal">
-                                <p><i class="fa-regular fa-calendar"></i>Saturday, 28 October 2023</p>
+                                <p><i class="fa-regular fa-calendar"></i>Saturday, 28th October 2023</p>
                             </div>
                             <div class="jam">
                                 <p><i class="fa-regular fa-clock"></i>11.00 WIB s/d selesai</p>
@@ -264,17 +279,21 @@
                         <P>Please Confirm Your Attendance</P>
                     </div>
                     <div class="form">
-                        <label for="kehadiran"> Kehadiran</label>
+                        <div class="name">
+                            <p>Name</p>
+                            <input type="text" class="form-control" placeholder="Name">
+                        </div>
+                        <label for="kehadiran">Attend</label>
                         <div class="form-check">
                             <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                             <label class="form-check-label" for="flexRadioDefault1">
-                                Hadir
+                                Attend
                             </label>
                         </div>
                         <div class="form-check ">
                             <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
                             <label class="form-check-label" for="flexRadioDefault2">
-                                tidak hadir
+                                Not Attend
                             </label>
                         </div>
                         
@@ -289,6 +308,10 @@
                         <P>It is an honor and pleasure for us, if you can attend and give us your blessing</P>
                     </div>
                     <div class="form">
+                        <div class="name">
+                            <p>Name</p>
+                            <input type="text" class="form-control" placeholder="Name">
+                        </div>
                         <label for="nama">Your Wish</label>
                         <textarea class="form-control mb-4" placeholder="Input Your Wish" style="height: 100px"></textarea>
                         <a href="#" class="button">Submit</a>
@@ -363,11 +386,7 @@
             }
         </script>
 
-        <script type="text/javascript">
-            window.onload = () => {
-                $('#myModal').modal('show');
-            }
-        </script>
+        
 
         <script>
             
@@ -383,12 +402,9 @@
             
         </script>
 
+        <script src="assets/js/countdown.js"></script>
+
         <script src="assets/js/scroll.js"></script>
-        // <script>
-        //     document.addEventListener('DOMContentLoaded', function() {
-        //         let audio = document.getElementById('myAudio');
-        //         audio.play();
-        //     });
-        // </script>
+   
 </body>
 </html>
