@@ -30,7 +30,7 @@ body {
   overflow-y: hidden;
 }
 
-.cover-undangan::before {
+/* .cover-undangan::before {
   content: "";
   position: absolute;
   top: 0px;
@@ -38,7 +38,7 @@ body {
   bottom: 0px;
   left: 0px;
   background-color: rgba(0, 0, 0, 0.7);
-}
+} */
 
 .content {
   display: flex;
