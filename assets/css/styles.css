@@ -24,13 +24,12 @@ body {
   align-items: center;
   justify-content: center;
   background: url("https://ik.imagekit.io/u1ds9zj1i/image/cover.jpg?updatedAt=1693664528727")
-     fixed center;
+    center;
   background-size: cover;
-  overflow-x: hidden;
-  overflow-y: hidden;
+
 }
 
-/* .cover-undangan::before {
+.cover-undangan::before {
   content: "";
   position: absolute;
   top: 0px;
@@ -38,7 +37,7 @@ body {
   bottom: 0px;
   left: 0px;
   background-color: rgba(0, 0, 0, 0.7);
-} */
+}
 
 .content {
   display: flex;
