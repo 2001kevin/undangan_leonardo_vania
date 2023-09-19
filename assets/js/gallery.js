@@ -1,5 +1,6 @@
 $(".gallery").slick({
   autoplay: false,
+  lazyLoad: "ondemand",
   infinite: true,
   slidesToShow: 4,
   slidesToScroll: 1,
@@ -8,7 +9,7 @@ $(".gallery").slick({
     {
       breakpoint: 1024,
       settings: {
-        arrows: true,
+        
         slidesToShow: 3,
         slidesToScroll: 1,
       },
@@ -28,7 +29,7 @@ $(".gallery").slick({
       },
     },
     {
-      breakpoint: 320,
+      breakpoint: 400,
       settings: {
         arrows: true,
         slidesToShow: 1,
