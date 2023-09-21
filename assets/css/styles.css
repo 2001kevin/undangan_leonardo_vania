@@ -679,6 +679,10 @@ i {
     }
 }
 
+/* img #imageShow{
+  top: 50%;
+} */
+
 .gallery-text {
   width: 100%;
   display: flex;
