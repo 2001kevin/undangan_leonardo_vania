@@ -25,7 +25,7 @@
     <title>Leo Vania</title>
 </head>
 <body>
-    <audio id="myAudio" src="Robin Thicke - The Sweetest Love(Lyrics).mp3" loop>
+    <audio id="myAudio" src="Robin Thicke - The Sweetest Love(Lyrics).mp3" >
     </audio>
     <!-- modal cover undangan -->
         <div class="modal fade" data-bs-backdrop='static' id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"> <!-- Add this line to your code -->
@@ -209,8 +209,10 @@
             <div class="gallery-text reveal fade-bottom">
                 <span>A Glimpse of</span>
                 <span>Our Moments</span>
-                
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/pyv4JNSWxss?si=zla19oc5LIta8Wsu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div id="player">
+
+                    </div>
+                <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/pyv4JNSWxss?si=zla19oc5LIta8Wsu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
                 </div>
                 
             <div class="gallery">
@@ -376,29 +378,25 @@
                 try {
                     await navigator.clipboard.writeText(text);
                     console.log('No Rekening copied to clipboard');
-                    } 
-                    catch (err) {
-                console.error('Failed to copy: ', err);
+                } 
+                catch (err) {
+                    console.error('Failed to copy: ', err);
                 }
             }
-        </script>
-
-        <script>  
-            const modal = document.getElementById('myModal');
-            const audio = document.getElementById('myAudio');
+            </script>
             
-            const closeBtn = modal.querySelector('.close');
-            
-            closeBtn.addEventListener("click", function(){
-                modal.style.display = "none";
-                audio.play();
-            });
-        </script>
-
-        
-
-        
-
+            <script>  
+                const modal = document.getElementById('myModal');
+                const audio = document.getElementById('myAudio');
+                
+                const closeBtn = modal.querySelector('.close');
+                
+                closeBtn.addEventListener("click", function(){
+                    modal.style.display = "none";
+                    audio.play();
+                });
+            </script>
+        <script src="assets/js/iframeControl.js"></script>
         <script src="assets/js/scroll.js"></script>
    
 </body>
