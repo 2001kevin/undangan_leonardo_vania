@@ -445,10 +445,21 @@ li span {
 }
 
 .line {
-  width: 450px;
+  width: 100%;
   height: 1px;
-  background-color: white;
-  margin: 20px auto 20px;
+  background-color: black;
+ 
+}
+
+.side_name h2{
+  font-family: "Cormorant Garamond", sans-serif ;
+}
+
+.line_comment {
+  width: 100%;
+  height: 1px;
+  background-color: black;
+ 
 }
 
 .resepsi {
@@ -625,6 +636,7 @@ i {
   display: block;
   background-image: url("https://ik.imagekit.io/u1ds9zj1i/image/DSC00004.JPG?updatedAt=1693664548189");
   background-size: cover;
+  background-position: center;
   filter: blur(3px) brightness(0.5);
   transform: scale(1.2);
   z-index: -1;
@@ -780,6 +792,84 @@ i {
 
 .card_wish {
   margin-top: 100px;
+}
+
+.wish_section {
+  background-color: #333;
+  padding: 20px;
+  height: 400px;
+  margin-top: 25px;
+  border-radius: 10px;
+  overflow: scroll;
+}
+
+.wish_name p{
+  font-size: 22px;
+}
+
+.swiper {
+    width: 80%;
+    height: 120vh;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    height: 50%;
+    object-fit: cover;
+}
+
+.swiper-button-next{
+    color: white;
+}
+
+.swiper-button-prev{
+    color: white;
+}
+
+.wish_comment{
+  background-color: #2b2b28;
+  display: flex;
+  gap: 3em;
+  color: rgb(191, 191, 191);
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.side_name{
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.wish_name{
+  font-family: "Cormorant Garamond", serif;
+  margin-bottom: 20px;
+  bottom: 0px;
+}
+
+.wish_content{
+  margin-top: 10px;
+}
+
+.line_wish {
+  border-left: 3px solid #b39d5a;
+  
+  min-height: 100%;
+  left: 50%;
+  
 }
 
 .form a {
