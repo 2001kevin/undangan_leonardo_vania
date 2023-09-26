@@ -17,8 +17,13 @@
         crossorigin="anonymous"
     ></script>
     
+    <!-- CDN Fancybox -->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+    />
     <!-- CDN Slick -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link
@@ -156,8 +161,8 @@
                         <div class="text_pemberkatan">
                             <h2>Holy Matrimony</h2>
                         </div>
-                        <div class="line"></div>
                         <div class="card_content">
+                            <div class="line"></div>
                             <div class="tanggal">
                                 <p><i class="fa-regular fa-calendar"></i>Saturday, 28 October 2023</p>
                             </div>
@@ -218,60 +223,95 @@
                 <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/pyv4JNSWxss?si=zla19oc5LIta8Wsu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
                 </div>
                 <!-- Slider main container -->
-                <div class="swiper">
+                <div class="swiper mySwiper">
                     <!-- Additional required wrapper -->
                     <div class="swiper-wrapper">
                         <!-- Slides -->
                         <div class="swiper-slide">
-                            <img id="myImg" src="https://ik.imagekit.io/u1ds9zj1i/image/DSC00541.jpg?updatedAt=1693664589574" alt="" >
+                            <a href="https://ik.imagekit.io/u1ds9zj1i/image/DSC00541.jpg?updatedAt=1693664589574" data-fancybox>
+                                <img id="myImg" src="https://ik.imagekit.io/u1ds9zj1i/image/DSC00541.jpg?updatedAt=1693664589574" alt="" >
+                            </a>
                         </div>
                         <div class="swiper-slide">
-                            <img id="myImg" src="https://ik.imagekit.io/u1ds9zj1i/image/DSC00535.jpg?updatedAt=1693664582612" alt="" >
+                            <a href="https://ik.imagekit.io/u1ds9zj1i/image/DSC00535.jpg?updatedAt=1693664582612" data-fancybox>
+                                <img id="myImg" src="https://ik.imagekit.io/u1ds9zj1i/image/DSC00535.jpg?updatedAt=1693664582612" alt="" >
+                            </a>
                         </div>
                         <div class="swiper-slide">
-                            <img id="myImg" src="https://ik.imagekit.io/u1ds9zj1i/image/DSC00539.jpg?updatedAt=1693664581577" alt="" >
+                            <a href="https://ik.imagekit.io/u1ds9zj1i/image/DSC00539.jpg?updatedAt=1693664581577" data-fancybox>
+                                <img id="myImg" src="https://ik.imagekit.io/u1ds9zj1i/image/DSC00539.jpg?updatedAt=1693664581577" alt="" >
+                            </a>
                         </div>
                         <div class="swiper-slide">
-                            <img id="myImg" src="https://ik.imagekit.io/u1ds9zj1i/image/DSC00510.jpg?updatedAt=1693664578481" alt="" >
+                            <a href="https://ik.imagekit.io/u1ds9zj1i/image/DSC00510.jpg?updatedAt=1693664578481" data-fancybox>
+                                <img id="myImg" src="https://ik.imagekit.io/u1ds9zj1i/image/DSC00510.jpg?updatedAt=1693664578481" alt="" >
+                            </a>
                         </div>
                         <div class="swiper-slide">
-                            <img id="myImg" src="https://ik.imagekit.io/u1ds9zj1i/image/DSC00488.jpg?updatedAt=1693664569681" alt="" >
+                            <a href="https://ik.imagekit.io/u1ds9zj1i/image/DSC00510.jpg?updatedAt=1693664578481" data-fancybox>
+                                <img id="myImg" src="https://ik.imagekit.io/u1ds9zj1i/image/DSC00488.jpg?updatedAt=1693664569681" alt="" >
+                            </a>
+                            
                         </div>
                         <div class="swiper-slide">
-                            <img id="myImg" src="https://ik.imagekit.io/u1ds9zj1i/image/DSC00510.jpg?updatedAt=1693664578481" alt="" >
+                            <a href="https://ik.imagekit.io/u1ds9zj1i/image/DSC00510.jpg?updatedAt=1693664578481" data-fancybox>
+                                <img id="myImg" src="https://ik.imagekit.io/u1ds9zj1i/image/DSC00510.jpg?updatedAt=1693664578481" alt="" >
+                            </a>
                         </div>
                         <div class="swiper-slide">
-                            <img id="myImg" src="https://ik.imagekit.io/u1ds9zj1i/image/DSC09994.JPG?updatedAt=1693664592685" alt="" >
+                            <a href="https://ik.imagekit.io/u1ds9zj1i/image/DSC09994.JPG?updatedAt=1693664592685" data-fancybox>
+                                <img id="myImg" src="https://ik.imagekit.io/u1ds9zj1i/image/DSC09994.JPG?updatedAt=1693664592685" alt="" >
+                            </a>
                         </div>
                         <div class="swiper-slide">
-                            <img id="myImg" src="https://ik.imagekit.io/u1ds9zj1i/image/DSC00132.JPG?updatedAt=1693664553395" alt="" >
+                            <a href="https://ik.imagekit.io/u1ds9zj1i/image/DSC00132.JPG?updatedAt=1693664553395" data-fancybox>
+                                <img id="myImg" src="https://ik.imagekit.io/u1ds9zj1i/image/DSC00132.JPG?updatedAt=1693664553395" alt="" >
+                            </a>
                         </div>
                         <div class="swiper-slide">
-                            <img id="myImg" src="https://ik.imagekit.io/u1ds9zj1i/image/DSC00121.JPG?updatedAt=1693664550021" alt="" >
+                            <a href="https://ik.imagekit.io/u1ds9zj1i/image/DSC00121.JPG?updatedAt=1693664550021" data-fancybox>
+                                <img id="myImg" src="https://ik.imagekit.io/u1ds9zj1i/image/DSC00121.JPG?updatedAt=1693664550021" alt="" >
+                            </a>
                         </div>
                         <div class="swiper-slide">
-                            <img id="myImg" src="https://ik.imagekit.io/u1ds9zj1i/image/DSC00004.JPG?updatedAt=1693664548189" alt="" >
+                            <a href="https://ik.imagekit.io/u1ds9zj1i/image/DSC00004.JPG?updatedAt=1693664548189" data-fancybox>
+                                <img id="myImg" src="https://ik.imagekit.io/u1ds9zj1i/image/DSC00004.JPG?updatedAt=1693664548189" alt="" >
+                            </a>
                         </div>
                         <div class="swiper-slide">
-                            <img id="myImg" src="https://ik.imagekit.io/u1ds9zj1i/image/DSC00393.jpg?updatedAt=1693664564465" alt="" >
+                            <a href="https://ik.imagekit.io/u1ds9zj1i/image/DSC00393.jpg?updatedAt=1693664564465" data-fancybox>
+                                <img id="myImg" src="https://ik.imagekit.io/u1ds9zj1i/image/DSC00393.jpg?updatedAt=1693664564465" alt="" >
+                            </a>
                         </div>
                         <div class="swiper-slide">
-                            <img id="myImg" src="https://ik.imagekit.io/u1ds9zj1i/image/DSC00334.jpg?updatedAt=1693664556370" alt="" >
+                            <a href="https://ik.imagekit.io/u1ds9zj1i/image/DSC00334.jpg?updatedAt=1693664556370" data-fancybox>
+                                <img id="myImg" src="https://ik.imagekit.io/u1ds9zj1i/image/DSC00334.jpg?updatedAt=1693664556370" alt="" >
+                            </a>
                         </div>
                         <div class="swiper-slide">
-                            <img id="myImg" src="https://ik.imagekit.io/u1ds9zj1i/image/DSC00282.jpg?updatedAt=1693664555066" alt="" >
+                            <a href="https://ik.imagekit.io/u1ds9zj1i/image/DSC00282.jpg?updatedAt=1693664555066" data-fancybox>
+                                <img id="myImg" src="https://ik.imagekit.io/u1ds9zj1i/image/DSC00282.jpg?updatedAt=1693664555066" alt="" >
+                            </a>
                         </div>
                         <div class="swiper-slide">
-                            <img id="myImg" src="https://ik.imagekit.io/u1ds9zj1i/image/DSC00274.jpg?updatedAt=1693664552229" alt="" >
+                            <a href="https://ik.imagekit.io/u1ds9zj1i/image/DSC00274.jpg?updatedAt=1693664552229" data-fancybox>
+                                <img id="myImg" src="https://ik.imagekit.io/u1ds9zj1i/image/DSC00274.jpg?updatedAt=1693664552229" alt="" >
+                            </a>
                         </div>
                         <div class="swiper-slide">
-                            <img id="myImg" src="https://ik.imagekit.io/u1ds9zj1i/image/DSC00039.webp?updatedAt=1693664528745" alt="" >
+                            <a href="https://ik.imagekit.io/u1ds9zj1i/image/DSC00039.webp?updatedAt=1693664528745" data-fancybox>
+                                <img id="myImg" src="https://ik.imagekit.io/u1ds9zj1i/image/DSC00039.webp?updatedAt=1693664528745" alt="" >
+                            </a>
                         </div>
                         <div class="swiper-slide">
-                            <img id="myImg" src="https://ik.imagekit.io/u1ds9zj1i/image/DSC00118-2.webp?updatedAt=1693664527846" alt="" >
+                            <a href="https://ik.imagekit.io/u1ds9zj1i/image/DSC00118-2.webp?updatedAt=1693664527846" data-fancybox>
+                                <img id="myImg" src="https://ik.imagekit.io/u1ds9zj1i/image/DSC00118-2.webp?updatedAt=1693664527846" alt="" >
+                            </a>
                         </div>
                         <div class="swiper-slide">
-                            <img id="myImg" src="https://ik.imagekit.io/u1ds9zj1i/image/DSC00169-2.webp?updatedAt=1693664524890" alt="" >
+                            <a href="https://ik.imagekit.io/u1ds9zj1i/image/DSC00169-2.webp?updatedAt=1693664524890" data-fancybox>
+                                <img id="myImg" src="https://ik.imagekit.io/u1ds9zj1i/image/DSC00169-2.webp?updatedAt=1693664524890" alt="" >
+                            </a>
                         </div>
                     </div>
                     <!-- If we need pagination -->
@@ -283,11 +323,11 @@
 
                     <!-- If we need scrollbar -->
                     <div class="swiper-scrollbar"></div>
-                    <div class="arrow">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
+                </div>
+                <div class="arrow">
+                    <span></span>
+                    <span></span>
+                    <span></span>
                 </div>
                 
             <!-- <div class="gallery">
@@ -488,7 +528,7 @@
         <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-        <script src="assets/js/story.js"></script>
+        <script src="assets/js/showImage.js"></script>
         
         <script src="assets/js/gallery.js"></script>
 

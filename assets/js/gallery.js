@@ -39,7 +39,7 @@
 //   ],
 // });
 
-const swiper = new Swiper(".swiper", {
+const swiper = new Swiper(".mySwiper", {
   // Optional parameters
   direction: "horizontal",
   loop: true,
@@ -60,7 +60,7 @@ const swiper = new Swiper(".swiper", {
     320: {
       slidesPerView: 1,
     },
-    550: {
+    670: {
       slidesPerView: 2,
       spaceBetween: 20,
     },

@@ -444,12 +444,12 @@ li span {
   text-align: center;
 }
 
-.line {
+/* .line {
   width: 100%;
   height: 1px;
   background-color: black;
- 
-}
+  text-align: center;
+} */
 
 .side_name h2{
   font-family: "Cormorant Garamond", sans-serif ;
@@ -484,10 +484,6 @@ li span {
 
 i {
   margin-right: 8px;
-}
-
-.card_content {
-  text-align: start;
 }
 
 .jam p {
@@ -809,7 +805,8 @@ i {
 
 .swiper {
     width: 80%;
-    height: 120vh;
+    height: 100%;
+    /* background-color: #ffffff; */
 }
 
 .swiper-slide {
@@ -819,13 +816,14 @@ i {
     display: flex;
     justify-content: center;
     align-items: center;
+    /* background-color: #111111; */
 }
 
-.swiper-slide img {
+.swiper-slide a img {
     display: block;
-    width: 100%;
+    width: 50vh;
+    height: 70vh;
     border-radius: 10px;
-    height: 50%;
     object-fit: cover;
 }
 
