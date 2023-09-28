@@ -12,6 +12,15 @@ body {
   height: 100%;
 }
 
+.side_logo{
+  text-align: center;
+}
+
+.side_logo p {
+  top: 0;
+  font-family: "Cormorant Garamond", serif ;
+}
+
 .content {
   margin-top: 200px;
 }
