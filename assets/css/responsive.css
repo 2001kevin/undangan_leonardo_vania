@@ -473,7 +473,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 390px) {
+@media screen and (min-width: 320px) and (max-width: 400px) {
   span .over_word{
     margin-left: 18px;
   }
