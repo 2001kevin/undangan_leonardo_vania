@@ -16,48 +16,6 @@
   }
 }
 
-@media screen and (min-width:320px) and (max-width: 400px) {
-  .swiper-slide a img{
-    height: 50vh;
-    width: 38vh;
-  }
-}
-
-@media screen and (min-width:400px) and (max-width: 670px) {
-  .swiper-slide a img{
-    height: 70vh;
-    width: 49vh;
-  }
-}
-
-@media screen and (min-width:670px) and (max-width: 768px) {
-  .swiper-slide a img{
-    height: 50vh;
-    width: 39vh;
-  }
-}
-
-@media screen and (min-width:768px) and (max-width: 850px) {
-  .swiper-slide a img{
-    height: 60vh;
-    width: 45vh;
-  }
-}
-
-@media screen and (min-width:1024px) and (max-width: 1150px) {
-  .swiper-slide a img{
-    height: 50vh;
-    width: 38vh;
-  }
-}
-
-@media screen and (min-width:1150px) and (max-width: 1270px) {
-  .swiper-slide a img{
-    height: 60vh;
-    width: 45vh;
-  }
-}
-
 @media screen and (min-width:320px) and (max-width: 600px) {
   .wish_name h2{
     font-size: 20px;

@@ -707,7 +707,25 @@ i {
   align-items: center;
   justify-content: center;
 }
+.gallery-text2  {
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
+.gallery-text2 span{
+  color: white;
+}
+
+.gallery-text2 span:nth-child(1) {
+  margin-top: -30px;
+  font-size: 5.5em;
+  font-family: "Allison", cursive;
+  text-shadow: 2px 2px 1px black;
+}
 .gallery-text > span {
   color: white;
   font-family: "Montserrat", sans-serif;
@@ -723,6 +741,7 @@ i {
   font-family: "Allison", cursive;
   text-shadow: 2px 2px 1px black;
 }
+
 
 .gallery-text span:nth-child(3) {
   font-size: 1.2em;
@@ -813,27 +832,44 @@ i {
 }
 
 .swiper {
-    width: 80%;
+    width: 90%;
     height: 100%;
     /* background-color: #ffffff; */
 }
 
+.swiper-content {
+  height: 100% !important
+}
+
 .swiper-slide {
+    height: auto;
     text-align: center;
     font-size: 18px;
     border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: #111111; */
 }
 
 .swiper-slide a img {
-    display: block;
-    width: 50vh;
-    height: 70vh;
-    border-radius: 10px;
-    object-fit: cover;
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.swiper-container .swiper{
+  width: 85%;
+  height: 100%;
+}
+
+.swiper2 .swiper-slide a img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: cover;
 }
 
 .swiper-button-next{
@@ -877,6 +913,14 @@ i {
   min-height: 100%;
   left: 50%;
   
+}
+
+.form .kehadiran{
+  margin-bottom: 22px;
+}
+
+.kehadiran{
+  display: none;
 }
 
 .form a {
