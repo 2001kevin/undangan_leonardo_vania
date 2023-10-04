@@ -32,7 +32,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url("/prewed-fix/cover.jpg")
+  background: url("https://ik.imagekit.io/u1ds9zj1i/prewed-fix/cover.jpg?updatedAt=1696421705399")
     center;
   background-size: cover;
 
@@ -127,7 +127,7 @@ span {
   display: flex;
   align-items: end;
   justify-content: center;
-  background: url("/prewed-fix/DSC00118-2.jpg");
+  background: url("https://ik.imagekit.io/u1ds9zj1i/prewed-fix/DSC00118-2.jpg?updatedAt=1696421703421");
   background-size: cover;
   background-position: center;
 }
@@ -220,7 +220,7 @@ span {
   align-items: start;
   justify-content: end;
   position: relative;
-  background: url("/prewed-fix/DSC00057.jpg");
+  background: url("https://ik.imagekit.io/u1ds9zj1i/prewed-fix/DSC00057.jpg?updatedAt=1696421703450");
   background-size: cover;
   width: 50%;
   height: 100vh;
@@ -242,7 +242,7 @@ span {
   align-items: start;
   justify-content: end;
   position: relative;
-  background: url("/prewed-fix/bride.jpg");
+  background: url("https://ik.imagekit.io/u1ds9zj1i/prewed-fix/bride.jpg?updatedAt=1696421701597");
   background-size: cover;
   width: 50%;
   height: 100vh;
@@ -380,7 +380,7 @@ li span {
 
 .card_header {
   position: relative;
-  background: url("/prewed-fix/DSC00343.jpg");
+  background: url("https://ik.imagekit.io/u1ds9zj1i/prewed-fix/DSC00343.jpg?updatedAt=1696421708009");
   background-size: cover;
   background-position: center;
   height: 70vh;
@@ -639,7 +639,7 @@ i {
   width: 100%;
   height: 100%;
   display: block;
-  background-image: url("/prewed-fix/DSC00004.jpg");
+  background-image: url("https://ik.imagekit.io/u1ds9zj1i/prewed-fix/DSC00004.jpg?updatedAt=1696421705746");
   background-size: cover;
   background-position: center;
   filter: blur(3px) brightness(0.5);
@@ -1028,7 +1028,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url("/prewed-fix/DSC00140\ \(1\).jpg") center;
+  background: url("https://ik.imagekit.io/u1ds9zj1i/prewed-fix/DSC00140%20(1).jpg?updatedAt=1696421705527") center;
   background-size: cover;
 }
 
