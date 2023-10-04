@@ -32,7 +32,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url("https://ik.imagekit.io/u1ds9zj1i/image/cover.jpg?updatedAt=1693664528727")
+  background: url("/prewed-fix/cover.jpg")
     center;
   background-size: cover;
 
@@ -127,7 +127,7 @@ span {
   display: flex;
   align-items: end;
   justify-content: center;
-  background: url("https://ik.imagekit.io/u1ds9zj1i/image/DSC00118-2.webp?updatedAt=1693664527846");
+  background: url("/prewed-fix/DSC00118-2.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -220,7 +220,7 @@ span {
   align-items: start;
   justify-content: end;
   position: relative;
-  background: url("https://ik.imagekit.io/u1ds9zj1i/image/DSC00057.webp?updatedAt=1693664528228");
+  background: url("/prewed-fix/DSC00057.jpg");
   background-size: cover;
   width: 50%;
   height: 100vh;
@@ -242,7 +242,7 @@ span {
   align-items: start;
   justify-content: end;
   position: relative;
-  background: url("https://ik.imagekit.io/u1ds9zj1i/image/bride.jpg?updatedAt=1693664526072");
+  background: url("/prewed-fix/bride.jpg");
   background-size: cover;
   width: 50%;
   height: 100vh;
@@ -380,7 +380,7 @@ li span {
 
 .card_header {
   position: relative;
-  background: url("https://ik.imagekit.io/u1ds9zj1i/image/DSC00343.jpg?updatedAt=1693664556355");
+  background: url("/prewed-fix/DSC00343.jpg");
   background-size: cover;
   background-position: center;
   height: 70vh;
@@ -639,7 +639,7 @@ i {
   width: 100%;
   height: 100%;
   display: block;
-  background-image: url("https://ik.imagekit.io/u1ds9zj1i/image/DSC00004.JPG?updatedAt=1693664548189");
+  background-image: url("/prewed-fix/DSC00004.jpg");
   background-size: cover;
   background-position: center;
   filter: blur(3px) brightness(0.5);
@@ -1028,7 +1028,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url("https://ik.imagekit.io/u1ds9zj1i/image/DSC00140.JPG?updatedAt=1695915458037") center;
+  background: url("/prewed-fix/DSC00140\ \(1\).jpg") center;
   background-size: cover;
 }
 
